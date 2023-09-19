@@ -1,0 +1,162 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.container{width: 90%;}
+.hero-left {flex-basis: 48%;}
+.hero-left h1 {margin-bottom: 20px;}
+.hero-btn {margin-top: 20px;}
+.hero-right {flex-basis: 52%;}
+.hero-right a > img.play-btn {top: 36%;}
+.single-subject a > img{width: 30%;}
+.call-us p > span {font-size: 22px;}
+.boost-stem-left {flex-basis: 44%;}
+.boost-stem-right {flex-basis: 56%;}
+.boost-stem-area h4 {font-size: 22px;line-height: 32px;}
+.header-span {margin-bottom: 16px;}
+.boost-stem-left p {font-size: 16px;line-height: 26px;padding-right: 10px;}
+.our-aim-area-left img {width: 100%;}
+.our-aim-area-right h2 {font-size: 42px;margin-bottom: 24px;}
+#call-to-action h2 {font-size: 48px;}
+.news-content h3 {font-size: 20px;line-height: 26px;}
+.header {align-items: normal;}
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container{width: 90%;}
+  .dpn{display: none;}
+  .header {align-items: normal;}
+  .hero-left h1 {font-size: 42px;}
+  .header-btn{display: none;}
+  .hero-left p {font-size: 15px;line-height: 26px;}
+  .hero-btn {display: block;margin-top: 14px;font-size: 11px;}
+  .call-us p {font-size: 16px;line-height: 28px;}
+  .about-us-right h2 {font-size: 32px;}
+  .about-btn {font-size: 14px;}
+  .single-subject {flex-basis: 48%;margin-bottom: 30px;}
+  .boost-stem-left {flex-basis: 100%;}
+  .boost-stem-right {flex-basis: 100%;}
+  .boost-stem-top-img img {width: 100%;}
+  .our-aim-area-right h2 {font-size: 33px;margin-bottom: 18px;}
+  .our-aim-area {align-items: center;}
+  .news-content h3 {font-size: 28px;}
+  p {margin-bottom: 30px;}
+  #call-to-action h2 {font-size: 38px;}
+  .call-to-action-txt > span {font-size: 28px;}
+  #booking-form h2 {font-size: 28px;}
+  .single-footer {flex-basis: 48.3%;}
+  .header {flex-wrap: wrap;}
+  .about-us-right {flex-basis: 100%;}
+  .about-us-left {flex-basis: 100%;}
+  .single-form {margin: 15px 0;}
+  .single-form .fname, .lname, .email, .phone{flex-basis: 100%; margin-bottom: 10px;}
+  .single-form .lname, .phone, .subject-option {flex-basis: 100%; margin-bottom: 10px;}
+  .contact-form .single-form .fname, .email, .cname {flex-basis: 100%; margin-bottom: 10px;}
+    /* Physics Page */
+    .physics-top-content h2 {font-size: 40px;}
+    .physics-top-content {margin-left: 0;}
+    .physics-left {flex-basis: 100%;}
+    .physics-right {flex-basis: 100%;margin-bottom: 30px;}
+    .subject-physics {flex-direction: column-reverse;}
+  /* Blog Page */
+    .blog-top-content h2 {font-size: 40px;}
+    .signle-blog {flex-basis: 100%;margin-bottom: 30px;}
+  /* Contact Page */
+    .contact-form .single-form .lname, .phone, .subject-option {flex-basis: 100%;}
+    .contact-form {padding: 60px 10px;}
+    .txt-area textarea {width: 100%;}
+    .txt-area {margin-left: 0;}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .container{width: 90%;}
+  .dpn{display: none;}
+  .about-us-right {flex-basis: 100%;}
+  .about-us-left {flex-basis: 100%;}
+  .single-form {margin: 15px 0;}
+  .news-content h3 {font-size: 20px;line-height: 22px;}
+  #call-to-action h2 {font-size: 22px;line-height: 28px;}
+  .call-to-action-txt {display: grid;grid-gap: 20px;}
+  #booking-form {padding: 40px;}
+  #booking-form h2 {font-size: 28px;margin-bottom: 32px;line-height: 32px;}
+  .single-form .fname, .lname, .email, .phone{flex-basis: 100%; margin-bottom: 10px;}
+  .single-form .lname, .phone, .subject-option {flex-basis: 100%; margin-bottom: 10px;}
+  .contact-form .single-form .fname, .email, .cname {flex-basis: 100%; margin-bottom: 10px;}
+  .single-footer {flex-basis: 100%;margin-bottom: 30px;text-align: center;}
+  .single-footer a > img {width: 65%;}
+  .our-aim-area-left {flex-basis: 100%;}
+  .our-aim-area-right {flex-basis: 100%;margin-top: 50px;}
+  .our-aim-area-right > p {width: 100%;}
+  .our-aim-area-right h2 {font-size: 44px;}
+  .boost-stem-left {flex-basis: 100%;}
+  .header-span {margin-bottom: 20px;}
+  .single-subject {flex-basis: 100%;margin-bottom: 30px;}
+  .hero-left {flex-basis: 100%;}
+  .hero-left h1 {font-size: 55px;}
+  .hero-btn {font-size: 14px;}
+  .hero-right {flex-basis: 100%;margin-top: 30px;}
+  .boost-stem-right {flex-basis: 100%;}
+  .boost-stem-top-img img {width: 100%;}
+  .header {flex-wrap: wrap;}
+  .mobile-menu.mean-container {flex-basis: 100%;}
+  .header-btn {display: none;}
+  .logo {margin-bottom: 20px;}
+  .review-content > p {width: 100%;}
+  .call-us p {font-size: 17px;line-height: 32px;}
+  .about-us-right h2 {font-size: 34px;}
+  #booking-form-section {padding-top: 0;}
+  .single-footer .contact-info > span {padding: 5px 0;}
+  /* Physics Page */
+  .physics-top-content h2 {font-size: 40px;}
+  .physics-top-content {margin-left: 0;}
+  .physics-left {flex-basis: 100%;}
+  .physics-right {flex-basis: 100%;margin-bottom: 30px;}
+  .subject-physics {flex-direction: column-reverse;}
+/* Blog Page */
+  .blog-top-content h2 {font-size: 40px;}
+  .signle-blog {flex-basis: 100%;margin-bottom: 30px;}
+/* Contact Page */
+  .contact-form .single-form .lname, .phone, .subject-option {flex-basis: 100%;}
+  .contact-form {padding: 60px 10px;}
+  .txt-area textarea {width: 100%;}
+  .txt-area {margin-left: 0;}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container{width: 90%;}
+  .single-subject {flex-basis: 48%;margin-bottom: 30px;}
+
+
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
